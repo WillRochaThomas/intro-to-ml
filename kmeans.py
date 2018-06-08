@@ -1,4 +1,5 @@
-# https://www.datascience.com/blog/k-means-clustering
+# Based on https://bigdatascienc.wordpress.com/2017/12/29/k-means-clustering-in-python/, this site has code for plotting the results onto graphs
+# and tweaking the number of clusters you generate if you want to extend the below
 
 import numpy as np
 from sklearn.cluster import KMeans
