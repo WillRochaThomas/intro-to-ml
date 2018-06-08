@@ -18,4 +18,5 @@ test_data = [[190,70,42],[172,64,39],[182,80,42]];
 #prediction
 prediction_tree = clf_tree.predict(test_data);
 
-print("Prediction of DecisionTreeClassifier:",prediction_tree);
+print("Prediction of DecisionTreeClassifier for fruit with size,weight,texture values:", test_data)
+print("is",prediction_tree);
