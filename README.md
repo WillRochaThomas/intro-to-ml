@@ -1,3 +1,5 @@
+# Intro to machine learning with scikit-learn
+
 This repository includes a Dockerfile that comes with python3 installed.
 The container it starts will automatically run any code in `app.py`. A couple of example usages of machine learning algorithms are provided in this repo, to run them:
 
