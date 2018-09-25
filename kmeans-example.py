@@ -13,7 +13,7 @@ print(data.shape)
 ### data in the `f1` and `f2` arrays. We combine this into
 ### a feature matrix `X` before entering it into the algorithm.
 f1 = data['DistanceFeature'].values
-f2 = data['SpeedingFeature'].values
+f2 = data['SpeedFeature'].values
 
 X = np.array(list(zip(f1,f2)))
 kmeans = KMeans(n_clusters=2)
